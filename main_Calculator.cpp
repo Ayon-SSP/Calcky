@@ -18,7 +18,7 @@ int main(){
         pro = pro*n1;
     };
     for(int i2=1;n3>=i2;i2++){
-        pro2=pro2*pro;
+        pro2=pro2*ans;
         }                  // 12^3
     switch (signe)
     {
