@@ -2,12 +2,15 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n1,n2;
-    char signe;
-    cout<<"operation";
+    float n1,n2,n3;
+    float div;
+    char signe,signe2;
+    cout<<"operation\n";
     cin>>n1;
     cin>>signe;
     cin>>n2;
+    // cin>>signe2;
+    // cin>>n3;
     
 
     switch (signe)
@@ -21,7 +24,8 @@ int main(){
         break;
 
     case '/':
-        cout<<n1/n2;
+        div=n1/n2;
+        cout<<div;
         break;
 
     case '*':
