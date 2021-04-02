@@ -9,9 +9,7 @@ int main(){
     cin>>n1;
     cin>>signe;
     cin>>n2;
-    // cin>>signe2;
-    // cin>>n3;
-    
+   
 
     switch (signe)
     {
